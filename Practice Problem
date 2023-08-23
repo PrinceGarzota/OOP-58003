@@ -1,0 +1,42 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(void)
+{
+  int I, N;
+  float X, sum, Avg;
+
+  // Initialize how many numbers to enter
+
+  N = 25;
+
+  //Initialize numbers input counter
+
+  I = 0;
+
+  // Initialize Sum
+
+  Sum = 0;
+
+  Input N numbers
+
+  while (I < N) {
+    I = I + 1;  //Increment input counter
+
+  cout << "Enter Exam Score " << setw(2) <<
+    right << I << " of " << N << ":";
+
+  cin >> X;
+
+  Sum = Sum + X;
+
+  }
+
+  Avg = Sum / N;
+
+  cout << "\nAverage Exam Score: " <<Avg:
+
+  return 0;
+}
